@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3328E2220F3D5A900655A25 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3328E2120F3D5A900655A25 /* GoogleService-Info.plist */; };
+		B37C251220EFE0AF00F75E94 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B37C251120EFE0AF00F75E94 /* Login.storyboard */; };
+		B37C251820EFE63000F75E94 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37C251720EFE63000F75E94 /* LoginViewController.swift */; };
+		B385FF1320EEE60E0060FC23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B385FF1220EEE60E0060FC23 /* AppDelegate.swift */; };
+		B385FF1520EEE60E0060FC23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B385FF1420EEE60E0060FC23 /* ViewController.swift */; };
+		B385FF1820EEE60E0060FC23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B385FF1620EEE60E0060FC23 /* Main.storyboard */; };
+		B385FF1A20EEE60F0060FC23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B385FF1920EEE60F0060FC23 /* Assets.xcassets */; };
+		B385FF1D20EEE60F0060FC23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B385FF1B20EEE60F0060FC23 /* LaunchScreen.storyboard */; };
+		BC1B91D45990C3BAC4D49056 /* Pods_Makestagram12345.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86C0D689C3C399890545821A /* Pods_Makestagram12345.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6E5B271607C5673896A8D46F /* Pods-Makestagram12345.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram12345.release.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram12345/Pods-Makestagram12345.release.xcconfig"; sourceTree = "<group>"; };
+		86C0D689C3C399890545821A /* Pods_Makestagram12345.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Makestagram12345.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3328E2120F3D5A900655A25 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B37C251120EFE0AF00F75E94 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		B37C251720EFE63000F75E94 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B385FF0F20EEE60E0060FC23 /* Makestagram12345.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Makestagram12345.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B385FF1220EEE60E0060FC23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B385FF1420EEE60E0060FC23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B385FF1720EEE60E0060FC23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B385FF1920EEE60F0060FC23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B385FF1C20EEE60F0060FC23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B385FF1E20EEE60F0060FC23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3075C5E276E9FDE0143AE43 /* Pods-Makestagram12345.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram12345.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram12345/Pods-Makestagram12345.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B385FF0C20EEE60E0060FC23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1B91D45990C3BAC4D49056 /* Pods_Makestagram12345.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CF8C3D1B9D36C070F3C6E82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86C0D689C3C399890545821A /* Pods_Makestagram12345.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B37C250720EFD36B00F75E94 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B385FF1420EEE60E0060FC23 /* ViewController.swift */,
+				B37C251720EFE63000F75E94 /* LoginViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B37C250820EFD3E100F75E94 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B37C250920EFD3ED00F75E94 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B37C250A20EFD3F600F75E94 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B37C250B20EFD3FF00F75E94 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B37C250C20EFD40600F75E94 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B385FF1620EEE60E0060FC23 /* Main.storyboard */,
+				B385FF1B20EEE60F0060FC23 /* LaunchScreen.storyboard */,
+				B37C251120EFE0AF00F75E94 /* Login.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B37C250D20EFD41300F75E94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B385FF1E20EEE60F0060FC23 /* Info.plist */,
+				B3328E2120F3D5A900655A25 /* GoogleService-Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B37C250E20EFD41A00F75E94 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B385FF0620EEE60E0060FC23 = {
+			isa = PBXGroup;
+			children = (
+				B385FF1120EEE60E0060FC23 /* Makestagram12345 */,
+				B385FF1020EEE60E0060FC23 /* Products */,
+				FB4D2161B697ADA0E047F541 /* Pods */,
+				5CF8C3D1B9D36C070F3C6E82 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B385FF1020EEE60E0060FC23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B385FF0F20EEE60E0060FC23 /* Makestagram12345.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B385FF1120EEE60E0060FC23 /* Makestagram12345 */ = {
+			isa = PBXGroup;
+			children = (
+				B385FF1220EEE60E0060FC23 /* AppDelegate.swift */,
+				B37C250A20EFD3F600F75E94 /* Models */,
+				B37C250720EFD36B00F75E94 /* Controllers */,
+				B37C250820EFD3E100F75E94 /* Extensions */,
+				B37C250920EFD3ED00F75E94 /* Helpers */,
+				B37C250B20EFD3FF00F75E94 /* Services */,
+				B37C250C20EFD40600F75E94 /* Storyboards */,
+				B37C250D20EFD41300F75E94 /* Supporting Files */,
+				B37C250E20EFD41A00F75E94 /* Views */,
+				B385FF1920EEE60F0060FC23 /* Assets.xcassets */,
+			);
+			path = Makestagram12345;
+			sourceTree = "<group>";
+		};
+		FB4D2161B697ADA0E047F541 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3075C5E276E9FDE0143AE43 /* Pods-Makestagram12345.debug.xcconfig */,
+				6E5B271607C5673896A8D46F /* Pods-Makestagram12345.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B385FF0E20EEE60E0060FC23 /* Makestagram12345 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B385FF2120EEE60F0060FC23 /* Build configuration list for PBXNativeTarget "Makestagram12345" */;
+			buildPhases = (
+				4945D273B7EC0CF18059CC4D /* [CP] Check Pods Manifest.lock */,
+				B385FF0B20EEE60E0060FC23 /* Sources */,
+				B385FF0C20EEE60E0060FC23 /* Frameworks */,
+				B385FF0D20EEE60E0060FC23 /* Resources */,
+				22EA4A16165DBAD05FB44FAA /* [CP] Embed Pods Frameworks */,
+				069317D821BCCDFE88B2C1D4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Makestagram12345;
+			productName = Makestagram12345;
+			productReference = B385FF0F20EEE60E0060FC23 /* Makestagram12345.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B385FF0720EEE60E0060FC23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Make School";
+				TargetAttributes = {
+					B385FF0E20EEE60E0060FC23 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = B385FF0A20EEE60E0060FC23 /* Build configuration list for PBXProject "Makestagram12345" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B385FF0620EEE60E0060FC23;
+			productRefGroup = B385FF1020EEE60E0060FC23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B385FF0E20EEE60E0060FC23 /* Makestagram12345 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B385FF0D20EEE60E0060FC23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B37C251220EFE0AF00F75E94 /* Login.storyboard in Resources */,
+				B385FF1D20EEE60F0060FC23 /* LaunchScreen.storyboard in Resources */,
+				B3328E2220F3D5A900655A25 /* GoogleService-Info.plist in Resources */,
+				B385FF1A20EEE60F0060FC23 /* Assets.xcassets in Resources */,
+				B385FF1820EEE60E0060FC23 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		069317D821BCCDFE88B2C1D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Makestagram12345/Pods-Makestagram12345-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Makestagram12345/Pods-Makestagram12345-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22EA4A16165DBAD05FB44FAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Makestagram12345/Pods-Makestagram12345-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Makestagram12345/Pods-Makestagram12345-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4945D273B7EC0CF18059CC4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Makestagram12345-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B385FF0B20EEE60E0060FC23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B37C251820EFE63000F75E94 /* LoginViewController.swift in Sources */,
+				B385FF1520EEE60E0060FC23 /* ViewController.swift in Sources */,
+				B385FF1320EEE60E0060FC23 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B385FF1620EEE60E0060FC23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B385FF1720EEE60E0060FC23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B385FF1B20EEE60F0060FC23 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B385FF1C20EEE60F0060FC23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B385FF1F20EEE60F0060FC23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B385FF2020EEE60F0060FC23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B385FF2220EEE60F0060FC23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3075C5E276E9FDE0143AE43 /* Pods-Makestagram12345.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53U8MSG25A;
+				INFOPLIST_FILE = "$(SRCROOT)/Makestagram12345/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoyceWang.Makestagram12345;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B385FF2320EEE60F0060FC23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E5B271607C5673896A8D46F /* Pods-Makestagram12345.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53U8MSG25A;
+				INFOPLIST_FILE = "$(SRCROOT)/Makestagram12345/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoyceWang.Makestagram12345;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B385FF0A20EEE60E0060FC23 /* Build configuration list for PBXProject "Makestagram12345" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B385FF1F20EEE60F0060FC23 /* Debug */,
+				B385FF2020EEE60F0060FC23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B385FF2120EEE60F0060FC23 /* Build configuration list for PBXNativeTarget "Makestagram12345" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B385FF2220EEE60F0060FC23 /* Debug */,
+				B385FF2320EEE60F0060FC23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B385FF0720EEE60E0060FC23 /* Project object */;
+}
